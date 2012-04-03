@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ptbr" xmlns="http://www.w3.org/1999/xhtml" xmlns:ng="http://angularjs.org"  xmlns:my="http://gui.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Cerâmica,Tijolos,Cerâmica Paraná,Cerâmica Londrina,Material para Construção">
+    <meta name="author" content="Cerâmica,Tijolos,Cerâmica Paraná,Cerâmica Londrina,Material para Construção">
+
+
+    <title>Cerâmica</title>
+
+
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+
+
+    <script type="text/javascript" src="lib/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.cycle.all.js"></script>
+    <script type="text/javascript" src="lib/angular-0.10.3.min.js" ng:autobind></script>
+
+    <script type="text/javascript" src="menuCtrl.js"></script>
+    <script type="text/javascript" src="indexCtrl.js"></script>
+    <script type="text/javascript" src="page/sidebarCtrl.js"></script>
+    <script type="text/javascript" src="page/contatoCtrl.js"></script>
+    <script type="text/javascript" src="page/sobreCtrl.js"></script>
+    <script type="text/javascript" src="page/produtosCtrl.js"></script>
+    <script type="text/javascript" src="page/bemVindoCtrl.js"></script>
+
+</head>
+
+<body ng:controller="indexCtrl">
+<div id="container" ng:controller="menuCtrl">
+    <div id="container-inner">
+        <br/>
+        <ng:include  src="'page/mainMenu.html'"></ng:include>
+
+
+            <ng:view></ng:view>
+
+            <div id="main">
+
+  
+
+            <div class="clear"></div>
+
+        </div><!-- end main -->
+
+    </div><!-- end container-inner -->
+
+</div><!-- end container -->
+
+<div id="footer">
+    <p>&copy; Guerch</p>
+</div><!-- end footer -->
+
+<div style="text-align: center; font-size: 0.75em;">Aquele que constrói deixa um mundo melhor </div>
+
+ <div  style="color: #f9f9f9; float: left; font-size: 0.10em;" >
+     <h1 style="color: #f9f9f9; float: left; font-size: 0.10em;">Ceramica Tijolos para Vedação Londrina Jataizinho Norte do Paraná</h1>
+     <p style="font-weight: bold;">Cerâmica Princesa do Norte</p>
+     <span>Tel:(43) 3259-11-20 Endereço: Avenida Nicola Pansardi, 51
+Jataizinho - PR, 86210-000</span> <br/>
+
+     <br/>
+     <span>email: contato@ceramicapdn.com.br</span>
+ </div>
+
+
+</body>
+
+</html>

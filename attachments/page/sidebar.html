@@ -1,0 +1,13 @@
+     <div class="sidebar" ng:controller="sidebarCtrl" align="center">
+                <h4>Calculador de Obra</h4>
+         </br>
+         <input  type="text"  ng:model="mquadrados"  size="6" placeholder="m2">
+         <select style="background-color: #FFFFFF; color:#CD0100 "  ng:model="tijoloSelected" ng:options="t.nome for t in tijolos"></select>
+         <input type="button" ng:click="calcula()" name="btnsalva" value=" Calcula " style="background-color: #FFFFFF; margin: 5px;">
+           <div style="margin-top: 10px;">
+            <span style="color: #CD0100;" name="resultado">{{resultado}}</span>
+           </div>
+
+
+</div>
+

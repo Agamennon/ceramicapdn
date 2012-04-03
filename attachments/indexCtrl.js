@@ -1,0 +1,11 @@
+
+
+
+function indexCtrl($location,$route) {
+
+
+
+}
+
+
+
